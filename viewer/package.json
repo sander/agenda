@@ -1,6 +1,6 @@
 {
   "name": "design-calendar",
-  "version": "1.0.0-dev",
+  "version": "1.0.0",
   "license": "GPL-3.0",
   "dependencies": {
     "@types/react": "^16.0.25",
