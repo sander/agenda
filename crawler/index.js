@@ -92,7 +92,11 @@ const prepare = () => {
     .map(path => fs.readFileSync(path))
     .map(JSON.parse)
     .filter(({ end, date }) => new Date(end || date) > now)
-    .sort((a, b) => +new Date(a.end || a.date) - +new Date(b.end || b.date));
+    .sort((a, b) => {
+      const byDate = +new Date(a.end || a.date) - +new Date(b.end || b.date);
+      if (byDate === 0) return a.title < b.title ? -1 : 1;
+      else return byDate;
+    });
   const output = {
     updated: new Date(),
     events

@@ -3,7 +3,8 @@ module.exports.sources = [
   "org.waag",
   "nl.dezwijger",
   "nl.hetnieuweinstituut",
-  "com.meetup"
+  "com.meetup",
+  "com.eventbrite"
 ];
 
 /*
@@ -22,3 +23,8 @@ module.exports.meetupGroups = {
   [1988381]: "Rotterdam UX Cocktail Hours",
   [18571902]: "Startup Boot Businesses Networking Meetup"
 };
+
+module.exports.eventbriteOrganisers = [
+  "thingscon-amsterdam-14961243701",
+  "fuckup-nights-amsterdam-9386511841"
+];
