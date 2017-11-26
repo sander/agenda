@@ -1,10 +1,12 @@
 {
   "name": "descal",
-  "version": "0.1.0",
+  "version": "1.0.0-dev",
+  "license": "GPL-3.0",
   "main": "index.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.1",
     "request": "^2.81.0",
     "request-promise-native": "^1.0.4"
-  }
+  },
+  "homepage": "https://sanderdijkhuis.nl/agenda"
 }

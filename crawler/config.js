@@ -5,6 +5,11 @@ module.exports.sources = [
   "nl.hetnieuweinstituut",
   "com.meetup"
 ];
+
+/*
+ * Use https://secure.meetup.com/meetup_api/console/?path=/2/groups
+ * to get a Meetup group ID.
+ */
 module.exports.meetupGroups = {
   [21520976]: "Strategic Design Sandbox",
   [18299438]: "Amsterdam User Experience Designers",
@@ -14,5 +19,6 @@ module.exports.meetupGroups = {
   [8865472]: "Amsterdam UX",
   [18994920]: "Ladies that UX Amsterdam Meetup",
   [19717860]: "Booking.com UX Meetup",
-  [1988381]: "Rotterdam UX Cocktail Hours"
+  [1988381]: "Rotterdam UX Cocktail Hours",
+  [18571902]: "Startup Boot Businesses Networking Meetup"
 };
